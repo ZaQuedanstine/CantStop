@@ -1,5 +1,7 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/background.jpg","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/background.xnb","TextureProcessor","Texture2DContent",38322,2242645,0.2160656
-"C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/shark.png","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/shark.xnb","TextureProcessor","Texture2DContent",24301,131157,0.0049536
-"C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/starfish.png","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/starfish.xnb","TextureProcessor","Texture2DContent",7025,16469,0.1309362
-"C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/tilemap.jpg","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/tilemap.xnb","TextureProcessor","Texture2DContent",29972,327765,0.008593
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/background.jpg","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/background.xnb","TextureProcessor","Texture2DContent",38322,2242645,0.1890975
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/shark.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/shark.xnb","TextureProcessor","Texture2DContent",24301,131157,0.0044342
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/starfish.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/starfish.xnb","TextureProcessor","Texture2DContent",7025,16469,0.0016414
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/tilemap.jpg","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/tilemap.xnb","TextureProcessor","Texture2DContent",29972,327765,0.0090733
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/unknown.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/unknown.xnb","TextureProcessor","Texture2DContent",9354,16469,0.1264765
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/urchin.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/urchin.xnb","TextureProcessor","Texture2DContent",6440,16469,0.1187575
