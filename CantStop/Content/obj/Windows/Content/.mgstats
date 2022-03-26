@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/background.jpg","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/background.xnb","TextureProcessor","Texture2DContent",38322,2242645,0.1616957
 "C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/tilemap.jpg","C:/Users/akdreesen/Source/Repos/CantStop/CantStop/Content/bin/Windows/Content/tilemap.xnb","TextureProcessor","Texture2DContent",29972,327765,0.1298788
