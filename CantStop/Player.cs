@@ -27,7 +27,7 @@ namespace CantStop
         private Layer layer;
         private bool hit;
         private bool invulnerable;
-        private float hitAnimationTimer = 0.1f;
+        private float hitAnimationTimer = 0.03f;
         private int hitAnimationFrame = 0;
 
         private BoundingRectangle bounds;
@@ -120,7 +120,7 @@ namespace CantStop
             }
             else
             {
-                hitAnimationTimer = 0.1f;
+                hitAnimationTimer = 0.03f;
                 if (hitAnimationFrame <= 23) hitAnimationFrame++;
                 else hitAnimationFrame = 0;
             }
