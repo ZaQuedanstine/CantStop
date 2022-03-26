@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 using Squared.Tiled;
+using CollisionExample.Collisions;
 
 namespace CantStop
 {
@@ -25,13 +26,19 @@ namespace CantStop
         private Map _map;
         private Layer layer;
         private bool hit;
-        private float hitTimer = 2.5f;
+        private float hitTimer = 1.5f;
 
-        public Player(int scrollspeed, Map map)
+        private BoundingRectangle bounds;
+
+        public BoundingRectangle Bounds => bounds;
+
+
+        public Player(Vector2 InitialPosition,int scrollspeed, Map map)
         {
             laserList = new List<Lazer>();
             texture = null;
-            position = new Vector2(300, 300);
+            position = InitialPosition;
+            bounds = new BoundingRectangle(position.X, position.Y, 128, 256);
             laserDelay = 5;
             speed = 10;
             isColliding = false;
@@ -66,14 +73,7 @@ namespace CantStop
             priorKeyboardState = currentKeyboardState;
             currentKeyboardState = Keyboard.GetState();
             float t = (float)gt.ElapsedGameTime.TotalSeconds;
-            if(hit)
-            {
-                hitTimer -= t;
-                if(hitTimer < 0)
-                {
-                    hit = false;
-                }
-            }
+            hit = false;
             if (currentKeyboardState.IsKeyDown(Keys.Space) && priorKeyboardState.IsKeyUp(Keys.Space))
             {
                 Shoot();
@@ -92,11 +92,13 @@ namespace CantStop
             if (position.X > 1728 - texture.Width) position.X = 1728 - texture.Width;
             float tempypos = position.Y;
             position.Y -= Scrollspeed * t;
-            int tile = layer.GetTile((int)position.X/64, (int)position.Y/64);
-            if(tile != 0 )
+            if(CollidesWithTile())
             {
                 hit = true;
             }
+
+            bounds.X = position.X;
+            bounds.Y = position.Y;
         }
 
         public void Shoot()
@@ -113,12 +115,7 @@ namespace CantStop
                 Lazer newLaser = new Lazer(laserTexture);
 
                 newLaser.position = new Vector2(position.X + 32 - newLaser.texture.Width / 2, position.Y + 30);
-
-
-
                 newLaser.isVisible = true;
-
-
 
                 if (laserList.Count < 20)
 
@@ -134,10 +131,7 @@ namespace CantStop
             }
         }
 
-
-
         public void UpdateBullets(GameTime gameTime)
-
         {
             float t = (float)gameTime.ElapsedGameTime.TotalSeconds;
             foreach (Lazer l in laserList)
@@ -163,10 +157,22 @@ namespace CantStop
                 }
 
             }
-
         }
 
 
-
+        public bool CollidesWithTile()
+        {
+            
+            for (int y = 0; y < 140; y++)
+            {
+                for (int x = 0; x < 24; x++)
+                {
+                    int tile = layer.GetTile(x, y);
+                    BoundingRectangle tileBounds = new BoundingRectangle(x * 64 + 192, y * 64, 64, 64);
+                    if (tile != 0 && tileBounds.CollidesWith(this.bounds)) return true;
+                }
+            }
+            return false;
+        }
     }
 }

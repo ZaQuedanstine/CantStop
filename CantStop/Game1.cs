@@ -43,8 +43,7 @@ namespace CantStop
 
             // TODO: use this.Content to load your game content here
             _map = Map.Load(Path.Combine(Content.RootDirectory, "level1.tmx"), Content);
-            player = new Player(scrollSpeed, _map);
-            player.position = new Vector2(960, 8500);
+            player = new Player(new Vector2(960, 8500),scrollSpeed, _map);
             player.LoadContent(Content);
             _background = Content.Load<Texture2D>("newBackground");
         }
