@@ -1,5 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bluetang.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/bluetang.xnb","TextureProcessor","Texture2DContent",11618,32853,0.1261625
-"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/clownfish.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/clownfish.xnb","TextureProcessor","Texture2DContent",13010,32853,0.0038356
-"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/flounder.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/flounder.xnb","TextureProcessor","Texture2DContent",14271,32853,0.0023942
-"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/robotuna.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/robotuna.xnb","TextureProcessor","Texture2DContent",15750,32853,0.1230735
+"U:/580/dud/CantStop/Content/background.jpg","U:/580/dud/CantStop/Content/bin/Windows/Content/background.xnb","TextureProcessor","Texture2DContent",38322,2242645,0.5592417
+"U:/580/dud/CantStop/Content/bluetang.png","U:/580/dud/CantStop/Content/bin/Windows/Content/bluetang.xnb","TextureProcessor","Texture2DContent",11618,32853,0.0230101
+"U:/580/dud/CantStop/Content/clownfish.png","U:/580/dud/CantStop/Content/bin/Windows/Content/clownfish.xnb","TextureProcessor","Texture2DContent",13010,32853,0.0441842
+"U:/580/dud/CantStop/Content/flounder.png","U:/580/dud/CantStop/Content/bin/Windows/Content/flounder.xnb","TextureProcessor","Texture2DContent",14271,32853,0.0463358
+"U:/580/dud/CantStop/Content/robotuna.png","U:/580/dud/CantStop/Content/bin/Windows/Content/robotuna.xnb","TextureProcessor","Texture2DContent",15750,32853,0.0381686
+"U:/580/dud/CantStop/Content/shark.png","U:/580/dud/CantStop/Content/bin/Windows/Content/shark.xnb","TextureProcessor","Texture2DContent",24301,131157,0.0387789
+"U:/580/dud/CantStop/Content/starfish.png","U:/580/dud/CantStop/Content/bin/Windows/Content/starfish.xnb","TextureProcessor","Texture2DContent",7025,16469,0.0168141
+"U:/580/dud/CantStop/Content/tilemap.jpg","U:/580/dud/CantStop/Content/bin/Windows/Content/tilemap.xnb","TextureProcessor","Texture2DContent",29972,327765,0.0459924
+"U:/580/dud/CantStop/Content/unknown.png","U:/580/dud/CantStop/Content/bin/Windows/Content/unknown.xnb","TextureProcessor","Texture2DContent",9354,16469,0.0248107
+"U:/580/dud/CantStop/Content/urchin.png","U:/580/dud/CantStop/Content/bin/Windows/Content/urchin.xnb","TextureProcessor","Texture2DContent",6440,16469,0.0227969
