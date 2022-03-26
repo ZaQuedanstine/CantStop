@@ -1,17 +1,19 @@
-Content/background.png - created by Amanda Dreesen using PROCREATE
+Content/background.png - created by Amanda Dreesen using PROCREATE (1536 x 4480px)
 
-Content/bluetang.png - created by Amanda Dreesen using PROCREATE
+Content/bluetang.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
-Content/clownfish.png - created by Amanda Dreesen using PROCREATE
+Content/clownfish.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
-Content/flounder.png - created by Amanda Dreesen using PROCREATE
+Content/flounder.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
-Content/shark.png - created by Amanda Dreesen using PROCREATE
+Content/robotuna.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
-Content/starfish.png - created by Amanda Dreesen using PROCREATE
+Content/shark.png - created by Amanda Dreesen using PROCREATE (128 x 256px)
 
-Content/tilemap.png - created by Amanda Dreesen using PROCREATE
+Content/starfish.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
 
-Content/unknown.png - created by Amanda Dreesen using PROCREATE
+Content/tilemap.png - created by Amanda Dreesen using PROCREATE (320 x 256px)
 
-Content/urchin.png - created by Amanda Dreesen using PROCREATE
+Content/unknown.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
+
+Content/urchin.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
