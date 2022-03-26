@@ -157,6 +157,12 @@
 /processorParam:TextureFormat=Color
 /build:sharkAnimation.png
 
+#begin spoopyshark.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:spoopyshark.wav
+
 #begin starfish.png
 /importer:TextureImporter
 /processor:TextureProcessor

@@ -2,18 +2,34 @@ Content/background.png - created by Amanda Dreesen using PROCREATE (1536 x 4480p
 
 Content/bluetang.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
+Content/bottlePlastic.png - created by Amanda Dreese using PROCREATE (64 x 64px)
+
+Content/can.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
+
 Content/clownfish.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
+Content/dolphin.png - Created by Amande Dendinger using PROCREATE (128 x 256px)
+
 Content/flounder.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
+
+Content/laser.png - created by Amande Dreesen using PROCREATE (128 x )
+
+Content/Octo.png - created by Amanda Dendinger using PROCREATE (256 x 256px)
 
 Content/robotuna.png - created by Amanda Dreesen using PROCREATE (128 x 64px)
 
 Content/shark.png - created by Amanda Dreesen using PROCREATE (128 x 256px)
 
+Content/sharkAnimation.png - created by Amanda Dreesen using PROCREATE ()
+
 Content/starfish.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
 
 Content/tilemap.png - created by Amanda Dreesen using PROCREATE (320 x 256px)
 
+Content/trash.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
+
 Content/unknown.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
 
 Content/urchin.png - created by Amanda Dreesen using PROCREATE (64 x 64px)
+
+Content/spoopyshark.wav - created by Amanda Dreesen using GarageBand
