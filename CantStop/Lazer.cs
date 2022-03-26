@@ -16,17 +16,42 @@ namespace CantStop
         public Vector2 position;
         public Vector2 origin;
         public float speed;
+        private float _animationTimer = 0.05f;
+        private int animationFrame = 0;
+        private int _scrollSpeed;
 
-        public Lazer(Texture2D newTexture)
+        public Lazer(Texture2D newTexture, Vector2 Position ,int scrollSpeed)
         {
             speed = 10;
             texture = newTexture;
             isVisible = false;
+            _scrollSpeed = scrollSpeed;
+            position = Position;
+        }
+        
+        public void Update(GameTime gameTime, Vector2 playerPos)
+        {
+            float t = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (animationFrame >= 17) position.Y = position.Y - speed - _scrollSpeed * t;
+            else
+            {
+                position.X = playerPos.X;
+                position.Y = playerPos.Y - 128;
+                position.Y = position.Y - _scrollSpeed * t;
+            }
+            if(animationFrame < 17)_animationTimer -= t;
+            if(_animationTimer < 0)
+            {
+                _animationTimer = 0.05f;
+                if (animationFrame > 17)
+                    animationFrame = 17;
+                else animationFrame++;
+            }
         }
 
         public void Draw(SpriteBatch batch)
         {
-            batch.Draw(texture, position, Color.White);
+            batch.Draw(texture, position, new Rectangle(128 * animationFrame, 0, 128, 128), Color.White);
         }
     }
 }
