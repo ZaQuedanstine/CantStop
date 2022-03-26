@@ -11,7 +11,8 @@ namespace CantStop
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Map _map;
-        private Vector2 _viewportPosition;
+        private Vector2 _playerPosition = new Vector2(960, 8500);
+        private Vector2 _viewportPosition = new Vector2(0, 0);
 
         public Game1()
         {
@@ -44,17 +45,20 @@ namespace CantStop
                 Exit();
 
             // TODO: Add your update logic here
-
+            float t = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            _playerPosition.Y -= 250 * t;
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
+            float offsety =  200 - _playerPosition.Y;
+            Matrix transform = Matrix.CreateTranslation(0, offsety, 0);
 
             // TODO: Add your drawing code here
-            _spriteBatch.Begin();
-            _map.Draw(_spriteBatch, new Rectangle(192, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height), _viewportPosition);
+            _spriteBatch.Begin(transformMatrix: transform);
+            _map.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 8960), _viewportPosition);
             _spriteBatch.End();
             base.Draw(gameTime);
         }
