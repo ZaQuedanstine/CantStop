@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/abrah/Repos/CIS580/GameJam/CantStop/CantStop/Content/starfish.png","C:/Users/abrah/Repos/CIS580/GameJam/CantStop/CantStop/Content/bin/Windows/Content/starfish.xnb","TextureProcessor","Texture2DContent",7025,16469,0.2198127
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bluetang.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/bluetang.xnb","TextureProcessor","Texture2DContent",11618,32853,0.1261625
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/clownfish.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/clownfish.xnb","TextureProcessor","Texture2DContent",13010,32853,0.0038356
+"C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/flounder.png","C:/Users/akdreesen/source/repos/CantStop/CantStop/Content/bin/Windows/Content/flounder.xnb","TextureProcessor","Texture2DContent",14271,32853,0.0023942
