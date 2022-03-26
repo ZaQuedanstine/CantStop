@@ -18,8 +18,9 @@ namespace CantStop
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-            _graphics.PreferredBackBufferWidth = 1536;
-            _graphics.PreferredBackBufferHeight = 768;
+            _graphics.PreferredBackBufferWidth = 1920;
+            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
@@ -53,7 +54,7 @@ namespace CantStop
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
-            _map.Draw(_spriteBatch, new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height), _viewportPosition);
+            _map.Draw(_spriteBatch, new Rectangle(192, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height), _viewportPosition);
             _spriteBatch.End();
             base.Draw(gameTime);
         }
