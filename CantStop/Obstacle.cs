@@ -24,7 +24,7 @@ namespace CantStop
         public float randX;
         public float randY;
 
-        public Obstacle(Texture2D newTexture, Vector2 newPosition)
+        public Obstacle(Texture2D newTexture, Vector2 newPosition, int scrollSpeed)
         {
             position = newPosition;
             texture = newTexture;

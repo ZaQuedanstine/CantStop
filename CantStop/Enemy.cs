@@ -18,8 +18,9 @@ namespace CantStop
         public int health, speed, laserDelay, currentDifficultyLevel;
         public bool isVisible;
         public List<Lazer> laserList;
+        int _scrollSpeed;
 
-        public Enemy(Texture2D newTexture, Vector2 newPosition, Texture2D newLaserTexture)
+        public Enemy(Texture2D newTexture, Vector2 newPosition, Texture2D newLaserTexture, int scrollSpeed)
         {
             laserList = new List<Lazer>();
             texture = newTexture;
@@ -30,6 +31,7 @@ namespace CantStop
             laserDelay = 40;
             speed = 5;
             isVisible = true;
+            _scrollSpeed = scrollSpeed;
 
         }
 
@@ -89,7 +91,7 @@ namespace CantStop
             if (laserDelay <= 0)
             {
                 //Create a new bullet in front of enemy ship
-                Lazer newLaser = new Lazer(laserTexture);
+                Lazer newLaser = new Lazer(laserTexture, new Vector2(position.X, position.Y - 128), _scrollSpeed);
                 newLaser.position = new Vector2(position.X + texture.Width / 2 - newLaser.texture.Width / 2, position.Y + 30);
 
                 newLaser.isVisible = true;

@@ -42,7 +42,7 @@ namespace CantStop
             position = InitialPosition;
             bounds = new BoundingRectangle(position.X, position.Y, 128, 256);
             laserDelay = 5;
-            speed = 200;
+            speed = 400;
             isColliding = false;
             Scrollspeed = scrollspeed;
             _map = map;
@@ -53,7 +53,6 @@ namespace CantStop
         {
             texture = content.Load<Texture2D>("sharkAnimation");
             laserTexture = content.Load<Texture2D>("laser");
-            flounder = content.Load<Texture2D>("flounder");
         }
 
         public void Draw(SpriteBatch sb)
@@ -165,7 +164,7 @@ namespace CantStop
 
         public bool CollidesWithTile()
         {
-            for (int y = 0; y < 140; y++)
+            for (int y = 0; y < 280; y++)
             {
                 for (int x = 0; x < 24; x++)
                 {

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="24" height="140" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="1">
- <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64" tilecount="20" columns="5">
-  <image source="tilemap.jpg" width="320" height="256"/>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="24" height="280" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="Tileset" tilewidth="64" tileheight="64" tilecount="20" columns="5">
+  <image source="tilemap.png" width="320" height="256"/>
  </tileset>
- <tileset firstgid="21" name="background" tilewidth="384" tileheight="640" tilecount="56" columns="4">
-  <image source="newBackground.png" width="1536" height="8960"/>
- </tileset>
- <layer id="3" name="Tiles" width="24" height="140">
+ <layer id="3" name="Tiles" width="24" height="280">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu2YyxKDIAxFWVGX/f+vbbtwxklB87iXCs2dySgCJyiRVynfqgcrh2sRaVlOqxavNvJbz7T8Mx6C30v3vpun/azvn1pL7P5H86/iG8WVeQxulH/GPRtnLHytXy+/Zdb2IDXb/zCav4KPXtx97PG2LcjbGdF30LQp5+/5penjSLwey1li28vX+vDwLWLy/63t6D61lvWUl3WZYqxzmT6068bZ+CgfVwzE3M7ia+tG9h2Mst467PZY6jH7DbWeZPE1/lfnM+OLFVvRc0Am+4qPUPKT72GyztDZ5/Izfu/kn58DMOMx9b/a42lrGIrN5LN0lz1W8n/L9/qwjNOo+QLNb/li+Rj1Dkx+xP8d+U+wjea3lGunlFaeuLOs4dn81PwaMWdozqUj8dUri4zTVebvVXyk/GKfO1aRttS15lvHF83zHqOX1tx7+bJ9qH6r4irzUPut/FdTqdQd9QLW2V3FgDQAAA==
+   H4sIAAAAAAAACu2c0W7DIAxF87RF2sv+/2v3FCljQDDYDvbOkVCl1txrSAqENjmO33zcynF7vTiLOCllnVLnLOKkHqVeqVPqSz1q+V+cSvqS/p85BgAAu+M1xkXXl3pozNutmJXj1auncR60NDTPsZa+FhnOVQAAGMNjzM8wr/Tm9l6R6Efvpwxt8PBgHQRZif7dia7v4YG+jsdKHpI9k1n9Xdqwov9UX2PfRyOmV9ejDU/7Y6v0PLTWjU8eGvT2+bTI0IaWb2R9D48s11AAMIf1GGCtHTV3a336Jq9+7dha//ar6WG5/t/hOvKKk/rMxFv/X0ICaz2Ad/geKF+V9wAAAACy8HkrXj5Sz5UcW75e7QYAGGVkvGI8AwD4i9cY+Ma62cMHjzGPyPoeHuijv6JtrW/Jf+ub0TlqJvfROlLtmT0oC917Ha24Wj0AgKjsOO/toG2tH3UtE1X70l/53COHSB6Z9mgAYJ7Wfz7f8HwqAACwTuR7eiLfoxg999p7Hvf2eTwnRho7Ey+pp9G3Hs9qAMjK6jMztXyln1vm4tkPAGDHDxH8MH0AaQAA
   </data>
  </layer>
 </map>

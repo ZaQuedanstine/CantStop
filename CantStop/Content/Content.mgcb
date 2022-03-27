@@ -67,6 +67,18 @@
 /processorParam:TextureFormat=Color
 /build:clownfish.png
 
+#begin cosmicbackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:cosmicbackground.png
+
 #begin dolphin.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -181,7 +193,7 @@
 /processorParam:TextureFormat=Color
 /build:starfish.png
 
-#begin tilemap.jpg
+#begin tilemap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -191,7 +203,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:tilemap.jpg
+/build:tilemap.png
 
 #begin trash.png
 /importer:TextureImporter
