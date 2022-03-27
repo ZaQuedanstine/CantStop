@@ -1,1 +1,20 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"U:/580/charm/CantStop/Content/B R U H.mp3","U:/580/charm/CantStop/Content/bin/Windows/Content/B R U H.xnb","SongProcessor","SongContent",2327105,125,4.8247223
+"U:/580/charm/CantStop/Content/bluetang.png","U:/580/charm/CantStop/Content/bin/Windows/Content/bluetang.xnb","TextureProcessor","Texture2DContent",11618,32853,1.0529679
+"U:/580/charm/CantStop/Content/bottlePlastic.png","U:/580/charm/CantStop/Content/bin/Windows/Content/bottlePlastic.xnb","TextureProcessor","Texture2DContent",5666,16469,0.1193824
+"U:/580/charm/CantStop/Content/can.png","U:/580/charm/CantStop/Content/bin/Windows/Content/can.xnb","TextureProcessor","Texture2DContent",7334,16469,4.5525975
+"U:/580/charm/CantStop/Content/clownfish.png","U:/580/charm/CantStop/Content/bin/Windows/Content/clownfish.xnb","TextureProcessor","Texture2DContent",13010,32853,2.3819785
+"U:/580/charm/CantStop/Content/dolphin.png","U:/580/charm/CantStop/Content/bin/Windows/Content/dolphin.xnb","TextureProcessor","Texture2DContent",23623,131157,1.030936
+"U:/580/charm/CantStop/Content/flounder.png","U:/580/charm/CantStop/Content/bin/Windows/Content/flounder.xnb","TextureProcessor","Texture2DContent",14271,32853,1.3808941
+"U:/580/charm/CantStop/Content/laser.png","U:/580/charm/CantStop/Content/bin/Windows/Content/laser.xnb","TextureProcessor","Texture2DContent",70072,1179733,0.3997018
+"U:/580/charm/CantStop/Content/newBackground.png","U:/580/charm/CantStop/Content/bin/Windows/Content/newBackground.xnb","TextureProcessor","Texture2DContent",7887116,55050325,6.689853
+"U:/580/charm/CantStop/Content/Octo.png","U:/580/charm/CantStop/Content/bin/Windows/Content/Octo.xnb","TextureProcessor","Texture2DContent",114064,262229,1.6993207
+"U:/580/charm/CantStop/Content/robotuna.png","U:/580/charm/CantStop/Content/bin/Windows/Content/robotuna.xnb","TextureProcessor","Texture2DContent",15750,32853,1.7142249
+"U:/580/charm/CantStop/Content/shark.png","U:/580/charm/CantStop/Content/bin/Windows/Content/shark.xnb","TextureProcessor","Texture2DContent",24301,131157,2.1655438
+"U:/580/charm/CantStop/Content/sharkAnimation.png","U:/580/charm/CantStop/Content/bin/Windows/Content/sharkAnimation.xnb","TextureProcessor","Texture2DContent",372794,3145813,0.7641591
+"U:/580/charm/CantStop/Content/spoopyshark.mp3","U:/580/charm/CantStop/Content/bin/Windows/Content/spoopyshark.xnb","SongProcessor","SongContent",1218477,129,2.1138127
+"U:/580/charm/CantStop/Content/starfish.png","U:/580/charm/CantStop/Content/bin/Windows/Content/starfish.xnb","TextureProcessor","Texture2DContent",7025,16469,3.169741
+"U:/580/charm/CantStop/Content/tilemap.jpg","U:/580/charm/CantStop/Content/bin/Windows/Content/tilemap.xnb","TextureProcessor","Texture2DContent",29972,327765,1.2260214
+"U:/580/charm/CantStop/Content/trash.png","U:/580/charm/CantStop/Content/bin/Windows/Content/trash.xnb","TextureProcessor","Texture2DContent",16557,65621,1.6339495
+"U:/580/charm/CantStop/Content/unknown.png","U:/580/charm/CantStop/Content/bin/Windows/Content/unknown.xnb","TextureProcessor","Texture2DContent",9354,16469,1.00508
+"U:/580/charm/CantStop/Content/urchin.png","U:/580/charm/CantStop/Content/bin/Windows/Content/urchin.xnb","TextureProcessor","Texture2DContent",6440,16469,4.3751826
