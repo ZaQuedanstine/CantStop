@@ -49,9 +49,10 @@ namespace CantStop
 
             // TODO: use this.Content to load your game content here
             _map = Map.Load(Path.Combine(Content.RootDirectory, "level1.tmx"), Content);
-            player = new Player(new Vector2(896, 17920),scrollSpeed, _map);
-            player.LoadContent(Content);
             octoBoss.LoadContent(Content);
+            player = new Player(new Vector2(896, 18020),scrollSpeed, _map, octoBoss);
+            player.LoadContent(Content);
+            
             _background = Content.Load<Texture2D>("cosmicbackground");
 
             titleMusic = Content.Load<Song>("B R U H");

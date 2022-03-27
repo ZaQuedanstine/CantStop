@@ -29,13 +29,14 @@ namespace CantStop
         private bool invulnerable;
         private float hitAnimationTimer = 0.03f;
         private int hitAnimationFrame = 0;
+        private OctoBoss octoBoss;
 
         private BoundingRectangle bounds;
 
         public BoundingRectangle Bounds => bounds;
 
 
-        public Player(Vector2 InitialPosition, int scrollspeed, Map map)
+        public Player(Vector2 InitialPosition, int scrollspeed, Map map, OctoBoss octo)
         {
             laserList = new List<Lazer>();
             texture = null;
@@ -47,6 +48,7 @@ namespace CantStop
             Scrollspeed = scrollspeed;
             _map = map;
             map.Layers.TryGetValue("Tiles" ,out layer);
+            octoBoss = octo;
         }
 
         public void LoadContent(ContentManager content)
@@ -147,6 +149,10 @@ namespace CantStop
                     l.isVisible = false;
                 }
                 l.Update(gameTime, position);
+                if(octoBoss.CheckForCollisions(l))
+                {
+                    l.isVisible = false;
+                }
             }
 
             for (int i = 0; i < laserList.Count; i++)

@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
+using CollisionExample.Collisions;
 
 namespace CantStop
 {
@@ -19,6 +20,8 @@ namespace CantStop
         private float _animationTimer = 0.05f;
         private int animationFrame = 0;
         private int _scrollSpeed;
+        private BoundingRectangle bounds;
+        public BoundingRectangle Bounds => bounds;
 
         public Lazer(Texture2D newTexture, Vector2 Position ,int scrollSpeed)
         {
@@ -27,6 +30,7 @@ namespace CantStop
             isVisible = false;
             _scrollSpeed = scrollSpeed;
             position = Position;
+            bounds = new BoundingRectangle(position, 128, 128);
         }
         
         public void Update(GameTime gameTime, Vector2 playerPos)
@@ -47,6 +51,8 @@ namespace CantStop
                     animationFrame = 17;
                 else animationFrame++;
             }
+            bounds.X = position.X;
+            bounds.Y = position.Y;
         }
 
         public void Draw(SpriteBatch batch)

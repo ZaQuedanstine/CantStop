@@ -13,6 +13,11 @@ namespace CantStop
         private Vector2 position;
         private BoundingRectangle bounds;
         private int _scrollSpeed;
+        private bool hit;
+        //false = left 
+        private bool leftOrRight;
+        float hitTimer = 0.5f;
+        float roamTimer = 2f;
 
         public BoundingRectangle Bounds => bounds;
 
@@ -31,11 +36,51 @@ namespace CantStop
         {
             float t = (float)gameTime.ElapsedGameTime.TotalSeconds;
             position.Y -= _scrollSpeed * t;
+            if (hit == true)
+            {
+                hitTimer -= t;
+            }
+
+            if (hitTimer <= 0)
+            {
+                hit = false;
+                hitTimer = 0.5f;
+            }
+
+            roamTimer -= t;
+            if(roamTimer <= 0)
+            {
+                leftOrRight = !leftOrRight;
+                roamTimer = 2f;
+            }
+
+            if(leftOrRight)
+            {
+                position.X += 300 * t;
+            }
+            else
+            {
+                position.X -= 300 * t;
+            }
+            bounds.X = position.X;
+            bounds.Y = position.Y;
+        }
+
+        public bool CheckForCollisions(Lazer lazer)
+        {
+            if(bounds.CollidesWith(lazer.Bounds))
+            {
+                hit = true;
+            }
+            return hit;
         }
 
         public void Draw(SpriteBatch batch)
         {
-            batch.Draw(texture, position, Color.White);
+            if (!hit)
+            {
+                batch.Draw(texture, position, Color.White);
+            }
         }
 
     }
