@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="24" height="280" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="24" height="280" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" name="Tileset" tilewidth="64" tileheight="64" tilecount="20" columns="5">
   <image source="tilemap.png" width="320" height="256"/>
  </tileset>
+ <tileset firstgid="21" name="starfish" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="starfish.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="22" name="can" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="can.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="dory" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="bluetang.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="24" name="clownfish" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="clownfish.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="flounder" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="flounder.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="26" name="robotuna" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="robotuna.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="27" name="sixpack" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="bottlePlastic.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="28" name="urchin" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="unknown.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="29" name="urchin2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="urchin.png" width="64" height="64"/>
+ </tileset>
  <layer id="3" name="Tiles" width="24" height="280">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu2c0W7DIAxF87RF2sv+/2v3FCljQDDYDvbOkVCl1txrSAqENjmO33zcynF7vTiLOCllnVLnLOKkHqVeqVPqSz1q+V+cSvqS/p85BgAAu+M1xkXXl3pozNutmJXj1auncR60NDTPsZa+FhnOVQAAGMNjzM8wr/Tm9l6R6Efvpwxt8PBgHQRZif7dia7v4YG+jsdKHpI9k1n9Xdqwov9UX2PfRyOmV9ejDU/7Y6v0PLTWjU8eGvT2+bTI0IaWb2R9D48s11AAMIf1GGCtHTV3a336Jq9+7dha//ar6WG5/t/hOvKKk/rMxFv/X0ICaz2Ad/geKF+V9wAAAACy8HkrXj5Sz5UcW75e7QYAGGVkvGI8AwD4i9cY+Ma62cMHjzGPyPoeHuijv6JtrW/Jf+ub0TlqJvfROlLtmT0oC917Ha24Wj0AgKjsOO/toG2tH3UtE1X70l/53COHSB6Z9mgAYJ7Wfz7f8HwqAACwTuR7eiLfoxg999p7Hvf2eTwnRho7Ey+pp9G3Hs9qAMjK6jMztXyln1vm4tkPAGDHDxH8MH0AaQAA
+   H4sIAAAAAAAACu2cy27EIAxFs2ojddNNs2r//ze7qCIxFBMMtmM790hopBm415AMrzy27ZW3Im3F58le5eNSl6l19iof16PWq3Vqfa5HK/6TXUif0/4zxwC8ctwdwAP4ujuAAhzvGFj1cdH1uR4S4zaVZ+V49cpJnAeUhuQ5RulLkeFcBTHwNGbXfCf1AqDGos/PMK70xvZe4uhHb6cMdbDwiDYP8jxWRyRze0b/70TXt/DwrD+y/+blGKzEwdkzmdX3UocV/avyEvs+Enl6ZS3qcLU/tkrPQ2reeOUhQW+fT4oMdaB8I+tbeGRZQz0JXPObA+3WRrsP0Nam9CX2urmxc9faEvo/He2oxxX619qt+7c0r/1KemjO/z2sI898XJ+Z/Nr3S3DAXA9Igfkaj8+B9NH4DgDvZL6GBQAFxsCcUGv2KPoReC+SlQ/XcyVGyteq3uA/nHkK5jTgSYz0V+jPgAe8981YFzwPqz7wjnmzhQ88xjwi61t4RNGnxogo8WfU1/4Po236+jNlRuKaiX20DFd7Zg9KQ7csI5WvVQ7EwPuaCtiC8+EPj+OeB21t/ahzmajap/7K7xYxRPLItEeTjdVr8Np7vEeRZuCM3weRgBzUPZ93eF4lAIAc6EtjUo+hM8cx8jM9kZ9RjB576zuLZ/tGfVrzZ06MVu/EG31nivZ7UwAfag2TfTz1Uj/LOFbfmSnly/1dMxbLdgB8cI0EjPILGRodCwBpAAA=
+  </data>
+ </layer>
+ <layer id="9" name="fishies" width="24" height="280">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3byRGDMAwFULrI1n+fOXDNwevIit4rAAyM7S+NuS4g0it6AHR7BN//s/h60c8DI57RA4BC7BMAZDNbZ8uac1bXrAAAwPnUUQCspL8E672jB9CgNVM6awdANfoue43WHxnyFUBl+kvADBn8lqEPJ5dDnyxzxjrMLv6RrMl3B+iXJTfuZP+Y4/2NUQtRXYZ+5Ihfa6K9FmAda+q55NszOU9Dq3/N5wBwMhm6n5rwfF+6jhSvAGkAAA==
   </data>
  </layer>
 </map>
