@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
 using System.IO;
 using Squared.Tiled;
 
@@ -18,6 +19,9 @@ namespace CantStop
         private Vector2 _playerPosition = new Vector2(960, 8500);
         private Vector2 _viewportPosition = new Vector2(0, 0);
         private int scrollSpeed;
+
+        private Song titleMusic;
+        private Song spoopyBackgroundMusic;
 
         public Game1()
         {
@@ -47,6 +51,16 @@ namespace CantStop
             player = new Player(new Vector2(1536, 8500),scrollSpeed, _map);
             player.LoadContent(Content);
             _background = Content.Load<Texture2D>("newBackground");
+
+            titleMusic = Content.Load<Song>("B R U H");
+            MediaPlayer.IsRepeating = true;
+            MediaPlayer.Play(titleMusic);
+
+            spoopyBackgroundMusic = Content.Load<Song>("spoopyshark");
+            //MediaPlayer.IsRepeating = true;
+            //MediaPlayer.Play(spoopyBackgroundMusic);
+
+
         }
 
         protected override void Update(GameTime gameTime)
