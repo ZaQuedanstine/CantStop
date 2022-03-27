@@ -13,6 +13,12 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin B R U H.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:B R U H.mp3
+
 #begin bluetang.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -157,11 +163,11 @@
 /processorParam:TextureFormat=Color
 /build:sharkAnimation.png
 
-#begin spoopyshark.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
+#begin spoopyshark.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
 /processorParam:Quality=Best
-/build:spoopyshark.wav
+/build:spoopyshark.mp3
 
 #begin starfish.png
 /importer:TextureImporter
