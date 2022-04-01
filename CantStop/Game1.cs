@@ -13,6 +13,9 @@ namespace CantStop
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Map _map;
+        private Map levelXMap;
+        private Map levelZMap;
+        private Map levelRMap;
         private Texture2D _background;
         private Vector2 _backGroundPosition = new Vector2(192, 17920);
         private Player player;
@@ -49,8 +52,14 @@ namespace CantStop
 
             // TODO: use this.Content to load your game content here
             _map = Map.Load(Path.Combine(Content.RootDirectory, "level1.tmx"), Content);
+            //levelXMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyXmap.tmx"), Content);
+            //levelZMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyZMap.tmx"), Content);
+            //levelRMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyRmap.tmx"), Content);
+
             octoBoss.LoadContent(Content);
             player = new Player(new Vector2(896, 18020),scrollSpeed, _map, octoBoss);
+            //player = new Player(new Vector2(896, 18020), scrollSpeed, levelXMap, octoBoss);
+
             player.LoadContent(Content);
             
             _background = Content.Load<Texture2D>("cosmicbackground");
@@ -95,6 +104,7 @@ namespace CantStop
             _spriteBatch.Draw(_background, _backGroundPosition + new Vector2(0, -4480 * 4), Color.White);
             _spriteBatch.Draw(_background, _backGroundPosition + new Vector2(0, -4480 * 5), Color.White);
             _map.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
+            //levelXMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
             octoBoss.Draw(_spriteBatch);
             player.Draw(_spriteBatch);
             _spriteBatch.End();
