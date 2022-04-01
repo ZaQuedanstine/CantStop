@@ -86,11 +86,11 @@ namespace CantStop
             {
                 Shoot();
             }
-            if (currentKeyboardState.IsKeyDown(Keys.A))
+            if (currentKeyboardState.IsKeyDown(Keys.A) || currentKeyboardState.IsKeyDown(Keys.Left))
             {
                 position.X = position.X - speed * t;
             }
-            if (currentKeyboardState.IsKeyDown(Keys.D))
+            if (currentKeyboardState.IsKeyDown(Keys.D) || currentKeyboardState.IsKeyDown(Keys.Right))
             {
                 position.X = position.X + speed * t;
             }
