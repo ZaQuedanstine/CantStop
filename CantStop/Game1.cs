@@ -69,12 +69,12 @@ namespace CantStop
             _background = Content.Load<Texture2D>("cosmicbackground");
 
             titleMusic = Content.Load<Song>("B R U H");
-            MediaPlayer.IsRepeating = true;
-            MediaPlayer.Play(titleMusic);
+            //MediaPlayer.IsRepeating = true;
+            //MediaPlayer.Play(titleMusic);
 
             spoopyBackgroundMusic = Content.Load<Song>("spoopyshark");
-            //MediaPlayer.IsRepeating = true;
-            //MediaPlayer.Play(spoopyBackgroundMusic);
+            MediaPlayer.IsRepeating = true;
+            MediaPlayer.Play(spoopyBackgroundMusic);
 
 
         }
