@@ -52,17 +52,17 @@ namespace CantStop
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            //_map = Map.Load(Path.Combine(Content.RootDirectory, "level1.tmx"), Content);
+            _map = Map.Load(Path.Combine(Content.RootDirectory, "level1.tmx"), Content);
             //levelXMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyXmap.tmx"), Content);
             //evelZMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyZMap.tmx"), Content);
             //levelRMap = Map.Load(Path.Combine(Content.RootDirectory, "spoopyRmap.tmx"), Content);
-            testMap = Map.Load(Path.Combine(Content.RootDirectory, "TestMap.tmx"), Content);
+            //testMap = Map.Load(Path.Combine(Content.RootDirectory, "TestMap.tmx"), Content);
 
             octoBoss.LoadContent(Content);
-            //player = new Player(new Vector2(896, 18020),scrollSpeed, _map, octoBoss);
+            player = new Player(new Vector2(896, 18020),scrollSpeed, _map, octoBoss);
             //player = new Player(new Vector2(896, 18020), scrollSpeed, levelXMap, octoBoss);
             //player = new Player(new Vector2(896, 18020), scrollSpeed, levelXMap, octoBoss);
-            player = new Player(new Vector2(896, 18020), scrollSpeed, testMap, octoBoss);
+            //player = new Player(new Vector2(896, 18020), scrollSpeed, testMap, octoBoss);
 
             player.LoadContent(Content);
             
@@ -107,10 +107,10 @@ namespace CantStop
             _spriteBatch.Draw(_background, _backGroundPosition + new Vector2(0, -4480 * 3), Color.White);
             _spriteBatch.Draw(_background, _backGroundPosition + new Vector2(0, -4480 * 4), Color.White);
             _spriteBatch.Draw(_background, _backGroundPosition + new Vector2(0, -4480 * 5), Color.White);
-            //_map.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
+            _map.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
             //levelXMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
             //levelZMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
-            testMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
+            //testMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
 
             octoBoss.Draw(_spriteBatch);
             player.Draw(_spriteBatch);
