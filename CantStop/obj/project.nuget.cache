@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QBRc4qqxVFaAkpP/L3oZldnHVpMhfwnK5UncPWQmWoVaFu/+6Xg7p79roOEdtQYs+QeArhWEd0mbFUndTd+EEA==",
+  "dgSpecHash": "/Iy9a6S9EdUxEP3/7PVY0Ivl1Th0IF7ysVAA7wcgwfc0UU5gX5MvOF3NkqGrTsNXJjO9m3n3mUrWFLRNt3R69A==",
   "success": true,
   "projectFilePath": "C:\\Users\\akdreesen\\Source\\Repos\\CantStop\\CantStop\\CantStop.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\akdreesen\\.nuget\\packages\\monogame.framework.windowsdx\\3.8.0.1641\\monogame.framework.windowsdx.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
-    "C:\\Users\\akdreesen\\.nuget\\packages\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\runtime.native.system.net.security\\4.0.1\\runtime.native.system.net.security.4.0.1.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\runtime.native.system.security.cryptography\\4.0.1\\runtime.native.system.security.cryptography.4.0.1.nupkg.sha512",
