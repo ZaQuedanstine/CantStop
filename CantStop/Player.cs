@@ -47,7 +47,8 @@ namespace CantStop
             isColliding = false;
             Scrollspeed = scrollspeed;
             _map = map;
-            map.Layers.TryGetValue("Tiles" ,out layer);
+            map.Layers.TryGetValue("Tiles", out layer);
+            //map.Layers.TryGetValue("TestMap" ,out layer);
             octoBoss = octo;
         }
 
@@ -94,7 +95,7 @@ namespace CantStop
             {
                 position.X = position.X + speed * t;
             }
-            if (position.X < 192) position.X = 192;
+            if (position.X < 141) position.X = 141;
             if (position.X > 1728 - 128) position.X = 1728 - 128;
 
             position.Y -= Scrollspeed * t;
@@ -170,12 +171,12 @@ namespace CantStop
 
         public bool CollidesWithTile()
         {
-            for (int y = 0; y < 280; y++)
+            for (int y = 0; y < 141; y++)
             {
                 for (int x = 0; x < 24; x++)
                 {
                     int tile = layer.GetTile(x, y);
-                    BoundingRectangle tileBounds = new BoundingRectangle(x * 64 + 192, y * 64, 64, 64);
+                    BoundingRectangle tileBounds = new BoundingRectangle(x * 64 + 141, y * 64, 64, 64);
                     if (tile != 0 && tileBounds.CollidesWith(this.bounds)) return true;
                 }
             }

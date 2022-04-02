@@ -424,7 +424,9 @@ namespace Squared.Tiled
         public int GetTile(int x, int y)
         {
             if ((x < 0) || (y < 0) || (x >= Width) || (y >= Height))
+            {
                 throw new InvalidOperationException();
+            }
 
             int index = (y * Width) + x;
             return Tiles[index];

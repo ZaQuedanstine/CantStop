@@ -37,13 +37,13 @@ namespace CantStop
             _graphics.PreferredBackBufferHeight = 1080;
             _graphics.GraphicsProfile = GraphicsProfile.HiDef;
             _graphics.IsFullScreen = true;
-            scrollSpeed = 350;
+            scrollSpeed = 200;
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            octoBoss = new OctoBoss(_cameraPosition - new Vector2(0, 200), scrollSpeed);
+            octoBoss = new OctoBoss(_cameraPosition - new Vector2(-350, 200), scrollSpeed);
             base.Initialize();
         }
 
@@ -62,7 +62,7 @@ namespace CantStop
             player = new Player(new Vector2(896, 18020),scrollSpeed, _map, octoBoss);
             //player = new Player(new Vector2(896, 18020), scrollSpeed, levelXMap, octoBoss);
             //player = new Player(new Vector2(896, 18020), scrollSpeed, levelXMap, octoBoss);
-            //player = new Player(new Vector2(896, 18020), scrollSpeed, testMap, octoBoss);
+            //player = new Player(new Vector2(200, 9020), scrollSpeed, testMap, octoBoss);
 
             player.LoadContent(Content);
             
@@ -110,7 +110,7 @@ namespace CantStop
             _map.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
             //levelXMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
             //levelZMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
-            //testMap.Draw(_spriteBatch, new Rectangle(192, 0, 1536, 17920), _viewportPosition);
+            //testMap.Draw(_spriteBatch, new Rectangle(140, 0, 1536, 9024), _viewportPosition);
 
             octoBoss.Draw(_spriteBatch);
             player.Draw(_spriteBatch);

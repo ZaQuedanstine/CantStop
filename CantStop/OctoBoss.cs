@@ -17,7 +17,7 @@ namespace CantStop
         //false = left 
         private bool leftOrRight;
         float hitTimer = 0.5f;
-        float roamTimer = 2f;
+        float roamTimer = 3.5f;
 
         public BoundingRectangle Bounds => bounds;
 
@@ -51,7 +51,7 @@ namespace CantStop
             if(roamTimer <= 0)
             {
                 leftOrRight = !leftOrRight;
-                roamTimer = 2f;
+                roamTimer = 3.5f;
             }
 
             if(leftOrRight)
