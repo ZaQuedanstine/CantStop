@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Iy9a6S9EdUxEP3/7PVY0Ivl1Th0IF7ysVAA7wcgwfc0UU5gX5MvOF3NkqGrTsNXJjO9m3n3mUrWFLRNt3R69A==",
+  "dgSpecHash": "YMtyCU6nVk7uvdiK0oGrFTc49EsThmcOPMrchMUw8NANIEgfnWL18Dz/adXSXPalOp68bMe6udVDYrTp/1F+rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akdreesen\\Source\\Repos\\CantStop\\CantStop\\CantStop.csproj",
+  "projectFilePath": "C:\\Users\\akdreesen\\source\\repos\\CantStop\\CantStop\\CantStop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akdreesen\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\akdreesen\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

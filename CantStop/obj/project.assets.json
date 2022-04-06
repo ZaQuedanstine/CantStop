@@ -7387,11 +7387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akdreesen\\Source\\Repos\\CantStop\\CantStop\\CantStop.csproj",
+      "projectUniqueName": "C:\\Users\\akdreesen\\source\\repos\\CantStop\\CantStop\\CantStop.csproj",
       "projectName": "CantStop",
-      "projectPath": "C:\\Users\\akdreesen\\Source\\Repos\\CantStop\\CantStop\\CantStop.csproj",
+      "projectPath": "C:\\Users\\akdreesen\\source\\repos\\CantStop\\CantStop\\CantStop.csproj",
       "packagesPath": "C:\\Users\\akdreesen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akdreesen\\Source\\Repos\\CantStop\\CantStop\\obj\\",
+      "outputPath": "C:\\Users\\akdreesen\\source\\repos\\CantStop\\CantStop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

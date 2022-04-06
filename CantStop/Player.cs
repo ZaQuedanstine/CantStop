@@ -47,8 +47,8 @@ namespace CantStop
             isColliding = false;
             Scrollspeed = scrollspeed;
             _map = map;
-            map.Layers.TryGetValue("Tiles", out layer);
-            //map.Layers.TryGetValue("TestMap" ,out layer);
+            //map.Layers.TryGetValue("Tiles", out layer);
+            map.Layers.TryGetValue("TestMap" ,out layer);
             octoBoss = octo;
         }
 
